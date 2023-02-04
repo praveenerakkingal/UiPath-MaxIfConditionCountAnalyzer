@@ -93,7 +93,6 @@ namespace MaxIfConditionCountAnalyzer
                 count = IFConditionCount(item, count);
             }
 
-
             return count;
         }
     }
