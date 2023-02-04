@@ -90,6 +90,7 @@ namespace MaxIfConditionCountAnalyzer
                 {
                     count++;
                 }
+                //recrusive call to get all the child elements
                 count = IFConditionCount(item, count);
             }
 
